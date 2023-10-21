@@ -37,7 +37,7 @@ import javax.swing.border.EtchedBorder;
 
 import java.awt.event.MouseWheelListener;
 import java.awt.event.MouseWheelEvent;
-import javax.swing.Action;
+// import javax.swing.Action;
 import javax.swing.AbstractAction;
 import javax.swing.KeyStroke;
 
@@ -53,7 +53,7 @@ public class A6Tester {
 	private BufferedImage currentImage;
 	private JLabel swatchLabel;
 	private boolean samplingColour;
-	private JLabel regionCountLabel;
+	// private JLabel regionCountLabel;
 	private JCheckBox animateCheckBox;
 	private AnimateHelper animator;
 	
@@ -193,7 +193,7 @@ public class A6Tester {
 
 	private void initialize() {
 		viewerWindow = new JFrame();
-		viewerWindow.setTitle("CSC 225 - Summer 2020 - Image Visualization");
+		viewerWindow.setTitle("OOAD JAVA PBL - Image Visualization - Team Nights Watch");
 		viewerWindow.setBounds(100, 100, 1200, 600);
 		viewerWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
